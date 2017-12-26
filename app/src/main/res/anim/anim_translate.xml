@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:fromXDelta="-200"
+        android:toXDelta="0"
+        android:duration="1000"
+        android:repeatCount="0"
+    android:interpolator="@android:anim/decelerate_interpolator"
+
+
+
+        ></translate>
+
+
+
+</set>
+    <!--android:interpolator="@android:anim/fade_in"-->
+
+    <!--//TranslateAnimation(float x1, float x2, float y1, float y2)-->
+    <!--//(x1,y1)移動到(x2,y2)-->
+    <!--Animation am = new TranslateAnimation(0.0f, 100.0f, 0.0f, 100.0f);-->
+    <!--//setRepeatCount (int repeatCount) 設定重複次數 -1為無限次數 0-->
+    <!--am.setRepeatCount(-1);-->
+    <!--android:duration="200"  設定動畫開始到結束的執行時間-->
+    <!--android:repeatMode="reverse"-->
+    <!--android:interpolator="@android:anim/fade_in"-->
+    <!--android:interpolator="@android:anim/decelerate_interpolator"-->
+    <!--android:interpolator="@android:anim/fade_in"-->
+    <!--android:interpolator="@android:anim/decelerate_interpolator"-->
+    <!--android:repeatMode="reverse"-->
+    <!--android:interpolator="@android:anim/fade_in"  淡入,淡山…-->
+    <!--android:interpolator="@android:anim/decelerate_interpolator"  先加速加減-->

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="advice_light">you should eat more</string>
+    <string name="advice_average">your weight is standard</string>
+    <string name="advice_heavy">you should eat less</string>
+</resources>

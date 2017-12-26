@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--加入透明度的設定…-->
+    <!--fromAlpha;一開始的透明度-->
+    <!--toAlpha:結束時的透明度-->
+    <!--一開始暗的燈泡完全不透明,則可以看得到暗的燈泡-->
+    <!--因為最後的是暗燈泡,所以要先控制暗燈泡-->
+    <!--fromAlpha="1"完全不透明-->
+    <!--fromAlpha="0"完全透明-->
+    <!--android:duration="1000"重複撥放1000次-->
+    <!--android:repeatMode="restart"  會有一閃閃效果-->
+    <!--android:repeatMode="reverse"-->
+
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0"
+        android:duration="1000"
+        android:repeatCount="infinite"
+        android:repeatMode="reverse"
+
+        ></alpha>
+
+
+</set>
+    <!--android:interpolator="@android:anim/fade_in"  淡入,淡山…-->
+    <!--android:interpolator="@android:anim/decelerate_interpolator"  先加速加減-->

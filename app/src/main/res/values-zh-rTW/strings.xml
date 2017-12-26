@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BMI</string>
+    <string name="bmi_height">身高(cm)</string>
+    <string name="bmi_weight">體重(kg)</string>
+    <string name="bmi_btn">計算BMI值</string>
+    <string name="about_title">關於Android BMI</string>
+    <string name="about_msg">Android BMI</string>
+    <string name="report_back">回上一頁</string>
+
+    <string name="get_BMI">您的 BMI 值是</string>
+</resources>

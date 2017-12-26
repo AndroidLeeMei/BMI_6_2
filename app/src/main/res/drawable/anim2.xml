@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--<item-->
+        <!--android:drawable="@drawable/big_mac"-->
+        <!--android:duration="2000"/>-->
+    <!--&lt;!&ndash;2000  2秒…&ndash;&gt;-->
+    <!--<item-->
+        <!--android:drawable="@drawable/chicken_mc_nuggets_4pcs"-->
+        <!--android:duration="2000"/>-->
+    <!--<item-->
+        <!--android:drawable="@drawable/spicy_chicken_filet_burger"-->
+        <!--android:duration="2000"/>-->
+    <!--<item-->
+        <!--android:drawable="@drawable/crispy"-->
+        <!--android:duration="2000"/>-->
+</animation-list>

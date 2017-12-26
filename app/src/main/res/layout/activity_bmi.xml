@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.demo.android.bmi.Bmi">
+
+    <TextView
+        android:id="@+id/textHeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/myStyle"
+        android:text="@string/bmi_height" />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/myStyle"
+
+
+
+
+         />
+
+    <TextView
+        android:id="@+id/textWeight"
+        style="@style/myStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_weight" />
+
+    <EditText
+        android:id="@+id/weight"
+        style="@style/myStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/submit"
+        style="@style/myStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bmi_btn" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/myStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <ImageView
+        android:id="@+id/imageProperty"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:background="@drawable/animproperty"
+        />
+</LinearLayout>
